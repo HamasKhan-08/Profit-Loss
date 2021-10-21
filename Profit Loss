@@ -1,0 +1,23 @@
+#include <iostream>
+ using namespace std;
+ int main()
+ {
+ int cost;
+ 	int price;
+ 	int l;
+ 	int p;
+ 	cout << " Please Enter The Cost Of Purchase " << endl;
+ 	cin >> cost;
+ 	cout << " Please Enter The Price Sold For " << endl;
+ 	cin >> price;
+ 	l = cost - price;
+ 	p = price - cost;
+ 	if (cost > price) {
+ 		cout << " You Have Made A Loss Of " << l << endl;
+ 	}
+ 	if (price > cost) {
+ 		cout << " You have Made A Profit Of " << p << endl;
+ 	}
+ 	else {
+ 		cout << " You Have Sold It For No Profit Or Loss " << endl;
+ 	}
